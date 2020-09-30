@@ -1,6 +1,4 @@
 #allows you to sort in right order
-#for example 
-#111 112 113
 
 import re
 
