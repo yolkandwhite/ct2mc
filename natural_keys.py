@@ -1,0 +1,11 @@
+#allows you to sort in right order
+#for example 
+#111 112 113
+
+import re
+
+def atoi(text):
+    return int(text) if text.isdigit() else text
+
+def natural_keys(text):
+    return [atoi(c) for c in re.split(r'(\d+)', text)]
