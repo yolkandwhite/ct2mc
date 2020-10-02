@@ -60,6 +60,6 @@ def HU_MN_conv(HU_dir = '/Users/nyh/Documents/RP_Lab/ct2mc/phantom/HU_converted/
                 savetxt(out+str(i)+ '_HU2MN_conv.csv', loader, delimiter=',', fmt="%s")
                 i += 1                        
     
-    print("Material_Number_COMPLETED")
+    print("Material_Number_conversion COMPLETED")
 
 HU_MN_conv()
